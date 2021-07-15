@@ -64,6 +64,13 @@ print(t_list[0].get_text())
 
 ````
 # 正则表达式
+1. 主要语法  
+![1](https://github.com/heeler-deer/Molder/blob/main/png/1.png)
+![2](https://github.com/heeler-deer/Molder/blob/main/png/2.png)
+
+2. 主要函数  
+![3](https://github.com/heeler-deer/Molder/blob/main/png/3.png)
+![4](https://github.com/heeler-deer/Molder/blob/main/png/4.png)
 ````
 import re
 pat=re.compile("AA")
@@ -75,7 +82,7 @@ print(re.sub("a","A","abcddsf"))
 上面找到a并用A替换
 
 ````
-# xlsx
+# SQLite
 ````
 import sqlite3
 conn=sqlite3.connect("test.db")
@@ -137,3 +144,41 @@ for row in cursor:
 conn.close()
 关闭
 ````
+
+# excel
+````
+import xlwt
+workbook=xlwt.Workbook(encoding='utf-8')
+worksheet=workbook.add_sheet('sheet1')
+worksheet.write(0,0,'hello')
+workbook.save('stu.xlsx')
+````
+# 数据可视化
+## flask
+一个web框架，核心是werkzeug和jinja2
+```
+from flask import Flask,render_template
+import datetime
+app=Flask(__name__)
+#路由解析
+@app.route('/')
+def hello_world():
+   return 'hello world!'
+@app.route("/")
+def index2():
+   return render_template("index.html")
+#动态显示，需要传递变量
+@app.route("/")
+def indexx():
+    time=datetime.date.today()
+    name=["xzhang","xw","xzhao"]
+
+    return render_template("index.html",var=time,list=name)
+
+if __name__=='__main__'
+   app.run()
+```
+## echarts
+图表
+## wordcloud应用
+文字
