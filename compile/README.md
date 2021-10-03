@@ -9,6 +9,9 @@ front-end:
 - lexical analysis
 - parsing
 - semantic analysis
+
+
+
 back-end:
 - optimization
 - code generation
