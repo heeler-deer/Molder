@@ -2,6 +2,7 @@
 第三版和第二版差别还是挺大的。     
 ~~我找到的第三版电子书还是彩色的~~      
 暂时记录部分笔者看CSAPP的笔记，参考[Kipery](https://kiprey.github.io/2020/07/csapp/)的笔记。    
+github的渲染还是不行，欢迎来我的博客：[Heeler-Deer](https://heeler-deer.github.io/)来看
 Kipery,yyds!!!
 # 计算机系统漫游
 由于系统中所有信息都是由比特表示，因此区分不同数据对象的唯一方法是上下文.      
