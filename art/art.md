@@ -6,15 +6,15 @@
 
 **研究的背景以及问题陈述：**
 
-## major contributions 
+## Major Contributions 
 
 **该研究的贡献：**
 
-## HOW DO YOU THINK
+## How Do You Think
 
 **你认为作者会采用那些方法解决问题？**
 
-## PROBLEM STATEMENT/challenge
+## Problem Statement/Challenge
 
 **作者需要解决的问题是什么？**
 
