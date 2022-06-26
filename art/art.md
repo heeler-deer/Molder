@@ -33,7 +33,7 @@
 
 ## Conclusion
 
-**作者给出了哪些结论？哪些是[strong conclusions](https://www.zhihu.com/search?q=strong+conclusions&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A142802496}), 哪些又是weak的conclusions（即作者并没有通过实验提供evidence，只在discussion中提到；或实验的数据并没有给出充分的evidence）?**
+**作者给出了哪些结论？哪些是strong conclusions, 哪些又是weak的conclusions（即作者并没有通过实验提供evidence，只在discussion中提到；或实验的数据并没有给出充分的evidence）?**
 
 # Notes
 
